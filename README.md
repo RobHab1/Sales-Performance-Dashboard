@@ -1,40 +1,61 @@
 # Sales Performance Dashboard
 
-An interactive Business Intelligence dashboard built to analyze sales performance, profitability and business trends through executive reporting.
+An interactive Business Intelligence dashboard built to transform transactional sales data into meaningful business insights through executive reporting, KPI monitoring and visual analytics.
 
 ![Dashboard Overview](images/dashboard-overview.png)
 
 ---
 
-## Overview
+# Project Overview
 
-This project demonstrates how Business Intelligence transforms transactional sales data into meaningful business insights.
+This project demonstrates how Business Intelligence can support business decision-making by transforming raw sales data into interactive dashboards and actionable insights.
 
-The dashboard provides decision-makers with an interactive view of sales performance, profitability, customer behavior and regional trends through KPI-driven reporting and visual analytics.
+The solution provides executives and business stakeholders with a centralized view of sales performance across products, customers, regions and sales representatives.
+
+The dashboard focuses on performance monitoring, trend analysis and data-driven decision making through modern dashboard design and interactive reporting.
 
 ---
 
-## Business Objectives
+# Business Problem
 
-The dashboard answers key business questions such as:
+Organizations generate large volumes of transactional sales data every day.
+
+Without proper reporting it becomes difficult to identify:
+
+- Revenue trends
+- Regional performance
+- Customer behaviour
+- Product performance
+- Sales representative performance
+- Business opportunities
+- Performance deviations
+
+This dashboard addresses those challenges by providing an interactive Business Intelligence solution.
+
+---
+
+# Business Objectives
+
+The dashboard helps answer questions such as:
 
 - How is revenue changing over time?
 - Which product categories generate the highest revenue?
 - Which regions perform best?
-- Which sales representatives achieve the best results?
-- Which customer segments are the most valuable?
+- Which sales representatives generate the strongest results?
+- Which customer segments are most valuable?
+- Which sales channels contribute the most revenue?
 - How do discounts impact profitability?
-- What sales trend can be expected in the coming months?
+- What future sales trend can be expected?
 
 ---
 
-## Dashboard Pages
+# Dashboard Pages
 
-### Executive Overview
+## Executive Overview
 
-A high-level overview of business performance.
+Provides a high-level overview of business performance.
 
-**Features**
+Features
 
 - Revenue
 - Gross Profit
@@ -42,19 +63,19 @@ A high-level overview of business performance.
 - Units Sold
 - Transactions
 - Monthly Revenue Trend
-- Revenue by Category
 - Revenue by Region
+- Revenue by Category
 - Top Sales Representatives
 
 ---
 
-### Product Analysis
-
-Analyze product and category performance.
+## Product Analysis
 
 ![Product Analysis](images/product-analysis.png)
 
-**Features**
+Analyze product performance across categories.
+
+Features
 
 - Revenue by Category
 - Gross Margin Analysis
@@ -63,42 +84,42 @@ Analyze product and category performance.
 
 ---
 
-### Sales Team
-
-Monitor sales representative performance.
+## Sales Team
 
 ![Sales Team](images/sales-team.png)
 
-**Features**
+Monitor sales representative performance.
+
+Features
 
 - Revenue by Sales Representative
 - Gross Profit Analysis
 - Sales Leaderboard
-- Payment Method Distribution
+- Payment Method Analysis
 
 ---
 
-### Regional Analysis
-
-Analyze regional sales performance.
+## Regional Analysis
 
 ![Regional Analysis](images/regional-analysis.png)
 
-**Features**
+Analyze regional sales performance.
+
+Features
 
 - Regional Revenue
-- Sales Channel Performance
+- Sales Channel Analysis
 - Regional Ranking
 
 ---
 
-### Customer Analysis
-
-Analyze customer purchasing behaviour.
+## Customer Analysis
 
 ![Customer Analysis](images/customer-analysis.png)
 
-**Features**
+Analyze customer purchasing behaviour.
+
+Features
 
 - Customer Segmentation
 - Customer Type Analysis
@@ -107,22 +128,54 @@ Analyze customer purchasing behaviour.
 
 ---
 
-### Forecast & Variance
-
-Monitor future sales performance.
+## Forecast & Variance
 
 ![Forecast & Variance](images/forecast-variance.png)
 
-**Features**
+Support future planning through forecasting and variance analysis.
+
+Features
 
 - Revenue Forecast
-- Trend Analysis
+- Monthly Trend Analysis
 - Variance Analysis
 - Executive Insights
 
 ---
 
-## Key Performance Indicators
+# Dashboard Highlights
+
+This solution includes:
+
+- Executive KPI Cards
+- Interactive Filters
+- Category Analysis
+- Customer Analytics
+- Regional Analytics
+- Sales Team Performance
+- Forecasting
+- Variance Analysis
+- Dynamic Visualizations
+- Interactive Business Reporting
+
+---
+
+# Key Business Insights
+
+The dashboard enables users to identify:
+
+- Highest performing product categories
+- Best performing sales representatives
+- Strongest performing regions
+- Customer purchasing patterns
+- Revenue trends over time
+- Sales channel performance
+- Discount impact on profitability
+- Business growth opportunities
+
+---
+
+# Key Performance Indicators
 
 | KPI | Description |
 |------|-------------|
@@ -130,14 +183,14 @@ Monitor future sales performance.
 | Gross Profit | Revenue minus cost |
 | Gross Margin | Gross Profit divided by Revenue |
 | Units Sold | Total quantity sold |
-| Transactions | Number of completed sales |
+| Transactions | Total completed sales |
 | Forecast | Projected revenue trend |
 
 ---
 
-## Business Intelligence Skills
+# Business Intelligence Skills Demonstrated
 
-This project demonstrates experience with:
+This project demonstrates practical experience in:
 
 - Business Intelligence
 - Executive Reporting
@@ -149,12 +202,13 @@ This project demonstrates experience with:
 - Regional Analytics
 - Forecasting
 - Variance Analysis
-- Interactive Dashboards
+- Data Storytelling
 - Data Visualization
+- Interactive Reporting
 
 ---
 
-## Technologies
+# Technical Skills
 
 - Python
 - Pandas
@@ -162,17 +216,40 @@ This project demonstrates experience with:
 - HTML5
 - CSS3
 - JavaScript
+- Data Cleaning
+- Data Transformation
+- Exploratory Data Analysis
 
 ---
 
-## Dataset
+# Dashboard Architecture
 
-The dashboard is built from a transactional sales dataset including:
+```text
+Sales Data (CSV)
+        │
+        ▼
+Data Cleaning (Python & Pandas)
+        │
+        ▼
+Business KPI Calculations
+        │
+        ▼
+Interactive Dashboard (Plotly)
+        │
+        ▼
+Executive Reporting
+```
+
+---
+
+# Dataset
+
+The dashboard uses a transactional sales dataset containing:
 
 - Sales Transactions
 - Product Categories
-- Regions
 - Sales Representatives
+- Regions
 - Customer Types
 - Sales Channels
 - Payment Methods
@@ -183,7 +260,7 @@ The dashboard is built from a transactional sales dataset including:
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```text
 Sales-Performance-Dashboard
@@ -206,7 +283,7 @@ Sales-Performance-Dashboard
 
 ---
 
-## Getting Started
+# Getting Started
 
 Clone the repository.
 
@@ -214,33 +291,41 @@ Clone the repository.
 git clone https://github.com/RobHab1/Sales-Performance-Dashboard.git
 ```
 
-Open the dashboard.
+Open the interactive dashboard.
 
 ```text
 dashboard/sales_performance_dashboard.html
 ```
 
-No installation is required.
+No additional installation is required.
 
 ---
 
-## About
+# Future Improvements
 
-This project was created as part of my Business Intelligence portfolio to demonstrate practical skills in:
+Potential future enhancements include:
 
-- Dashboard Development
-- Business Intelligence
-- Sales Analytics
-- KPI Design
-- Data Visualization
-- Executive Reporting
-- Interactive Analytics
-
-The objective was to transform raw sales data into a modern and interactive dashboard that supports business decision-making.
+- SQL Data Warehouse
+- Power BI Version
+- Star Schema Data Model
+- DAX Measures
+- Power Query ETL
+- Time Intelligence
+- Drill-through Reporting
+- Row-Level Security
+- GitHub Pages Deployment
 
 ---
 
-## Author
+# About
+
+This project was developed as part of my Business Intelligence portfolio.
+
+The objective was to demonstrate practical experience in dashboard development, sales analytics and executive reporting by transforming transactional sales data into interactive business insights.
+
+---
+
+# Author
 
 **Robel Habtemicael**
 
