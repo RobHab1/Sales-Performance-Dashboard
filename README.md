@@ -128,7 +128,7 @@ Features
 
 ## Sales Team
 
-![Sales Team](./images/sales-team.png)
+![Sales Team](images/sales-team.png)
 
 ## Regional Analysis
 
