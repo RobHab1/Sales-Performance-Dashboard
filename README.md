@@ -1,123 +1,120 @@
-# Commercial Performance Dashboard
+# Sales Performance Dashboard
 
-A portfolio project demonstrating Business Intelligence, commercial analytics and executive dashboard design using real sales data.
+An interactive Business Intelligence dashboard built to analyze sales performance, profitability and business trends through executive-level reporting.
 
 ![Dashboard Preview](images/dashboard-overview.png)
 
 ---
 
-# Overview
+## Overview
 
-This project showcases a modern Business Intelligence solution built for executive reporting and commercial performance analysis.
+This project demonstrates how Business Intelligence can transform raw sales data into actionable business insights.
 
-The dashboard enables business stakeholders to monitor sales performance, profitability, customer behavior and regional trends through interactive visualizations and KPI-driven reporting.
+The dashboard provides decision-makers with a clear view of sales performance through interactive visualizations, KPI monitoring and trend analysis.
 
-The solution follows common Business Intelligence design principles, including executive dashboards, dimensional modeling concepts and interactive analytics.
+It is designed to support strategic decision-making by answering key business questions related to revenue, profitability, customer behavior and regional performance.
 
 ---
 
-# Business Problem
+## Business Objectives
 
-Business leaders need a single source of truth to answer questions such as:
+This dashboard helps answer questions such as:
 
-- How is revenue performing over time?
-- Which products generate the highest revenue?
+- How is revenue changing over time?
+- Which product categories generate the highest sales?
 - Which regions perform best?
-- Which sales representatives deliver the strongest results?
-- Which customer segments are most profitable?
-- How does actual performance compare to expectations?
-- What is the expected sales trend?
-
-This dashboard provides an interactive environment to answer these questions.
+- Which sales representatives contribute the most revenue?
+- Which customer segments are most valuable?
+- How do discounts affect profitability?
+- What sales trends can be expected in the coming months?
 
 ---
 
-# Dashboard Pages
+## Dashboard Features
 
-## Executive Overview
+### Executive Overview
 
-Executive summary of business performance.
+Provides a high-level summary of business performance.
 
 KPIs
 
 - Revenue
 - Gross Profit
-- Gross Margin %
+- Gross Margin
 - Units Sold
 - Transactions
-- Forecast
-- Variance
 
 Visualizations
 
 - Monthly Revenue Trend
-- Revenue by Category
+- Revenue by Product Category
 - Revenue by Region
 - Top Sales Representatives
 
 ---
 
-## Product & Category Analysis
+### Product Analysis
 
-Analyze product performance across categories.
+Analyze product performance across different categories.
 
-Includes
+Features
 
 - Revenue by Category
-- Gross Margin
+- Gross Margin by Category
 - Pareto Analysis
 - Product Ranking
-- Product Performance
+- Product Performance Table
 
 ---
 
-## Sales Team
+### Sales Performance
 
-Evaluate sales performance.
+Monitor sales representative performance.
 
-Includes
+Features
 
 - Revenue by Sales Representative
-- Gross Profit
-- Payment Method Analysis
+- Profitability Analysis
+- Payment Method Distribution
 - Sales Leaderboard
 
 ---
 
-## Region & Channel
+### Regional Performance
 
-Analyze commercial performance across geographical regions and sales channels.
+Evaluate business performance across different regions.
 
-Includes
+Features
 
-- Revenue by Region
+- Regional Sales Analysis
 - Sales Channel Performance
-- Channel Profitability
-- Regional Leaderboard
+- Revenue Distribution
+- Regional Ranking
 
 ---
 
-## Customer Analysis
+### Customer Analysis
 
 Understand customer purchasing behavior.
 
-Includes
+Features
 
 - Customer Segmentation
-- Revenue by Customer Type
+- Customer Type Analysis
 - Discount Analysis
-- Customer Channel Analysis
+- Sales Channel Comparison
 
 ---
 
-## Forecast & Variance
+### Forecast & Trend Analysis
 
-Support future planning.
+Support future business planning.
 
-Includes
+Features
 
-- Revenue Forecast
-- Monthly Variance Analysis
+- Sales Forecast
+- Monthly Trend Analysis
+- Variance Analysis
 - Executive Business Insights
 
 ---
@@ -127,108 +124,63 @@ Includes
 | KPI | Description |
 |------|-------------|
 | Revenue | Total sales revenue |
-| Gross Profit | Revenue minus cost |
-| Gross Margin % | Gross Profit divided by Revenue |
+| Gross Profit | Revenue minus product cost |
+| Gross Margin | Gross Profit as a percentage of revenue |
 | Units Sold | Total quantity sold |
-| Transactions | Number of completed sales |
-| Forecast | Projected sales trend |
-| Variance | Difference between actual and expected performance |
+| Transactions | Total number of sales |
+| Forecast | Projected future sales trend |
 
 ---
 
-# Core BI Competencies
+# Business Intelligence Skills Demonstrated
 
-This project demonstrates practical Business Intelligence skills including:
+This project demonstrates practical Business Intelligence capabilities including:
 
-- Business Intelligence
-- Executive Reporting
-- Dashboard Development
-- KPI Design
-- Commercial Analytics
+- Business Intelligence Reporting
+- Executive Dashboard Design
+- KPI Development
 - Sales Analytics
+- Commercial Performance Analysis
 - Customer Analytics
 - Product Performance Analysis
-- Regional Performance Analysis
+- Regional Analysis
 - Forecasting
+- Trend Analysis
 - Variance Analysis
+- Interactive Dashboard Design
 - Data Visualization
-- Interactive Dashboards
 - Business Storytelling
 
 ---
 
-# Technical Skills Demonstrated
+# Technical Skills
 
-- Data Analysis
-- Data Transformation
-- Data Modeling
-- Fact and Dimension Concepts
-- Interactive Dashboard Design
-- Analytical Reporting
 - Python
 - Pandas
 - Plotly
 - HTML5
 - CSS3
 - JavaScript
+- Data Analysis
+- Interactive Reporting
 
 ---
 
-# Data Model
+# Data Structure
 
-The dashboard is designed around a Business Intelligence data model.
+The dashboard is built using a dimensional Business Intelligence approach.
 
 ```text
 FactSales
-    │
-    ├── DimDate
-    ├── DimProduct
-    ├── DimCustomer
-    ├── DimRegion
-    ├── DimSalesRepresentative
-    ├── DimSalesChannel
-    └── DimPaymentMethod
-```
-
----
-
-# Business Insights
-
-The dashboard allows users to identify
-
-- Top-performing products
-- Highest revenue regions
-- Best-performing sales representatives
-- Customer purchasing patterns
-- Sales channel effectiveness
-- Revenue trends
-- Gross margin performance
-- Future sales expectations
-
----
-
-# Repository Structure
-
-```text
-Commercial-Performance-Dashboard
 │
-├── dashboard
-│   └── sales_performance_dashboard.html
-│
-├── data
-│   └── sales_data.csv
-│
-├── images
-│   ├── dashboard-overview.png
-│   ├── executive-dashboard.png
-│   ├── product-analysis.png
-│   ├── sales-analysis.png
-│   ├── customer-analysis.png
-│   └── forecast-dashboard.png
-│
-├── README.md
-│
-└── LICENSE
+├── Product Category
+├── Product
+├── Region
+├── Sales Representative
+├── Customer Type
+├── Sales Channel
+├── Payment Method
+└── Date
 ```
 
 ---
@@ -237,64 +189,103 @@ Commercial-Performance-Dashboard
 
 ## Executive Overview
 
-![Executive Dashboard](images/executive-dashboard.png)
-
----
+![Executive Overview](images/executive-overview.png)
 
 ## Product Analysis
 
 ![Product Analysis](images/product-analysis.png)
 
----
+## Sales Performance
+
+![Sales Performance](images/sales-performance.png)
 
 ## Customer Analysis
 
 ![Customer Analysis](images/customer-analysis.png)
 
----
+## Forecast & Trend Analysis
 
-## Forecast & Variance
-
-![Forecast Dashboard](images/forecast-dashboard.png)
+![Forecast](images/forecast-dashboard.png)
 
 ---
 
 # Dataset
 
-The project is based on a commercial sales dataset containing
+The project uses a transactional sales dataset containing:
 
 - Sales transactions
 - Product categories
-- Product IDs
-- Customer segments
+- Product identifiers
 - Sales representatives
+- Customer types
 - Sales channels
 - Payment methods
 - Regional information
 - Revenue
-- Cost
+- Unit cost
+- Quantity sold
 - Discounts
 
 ---
 
-# Future Improvements
+# Repository Structure
 
-Planned enhancements include
-
-- Power BI implementation
-- SQL data warehouse
-- DAX measures
-- Power Query transformations
-- Row-Level Security
-- Incremental Refresh
-- Time Intelligence
-- Star Schema implementation
-- Interactive drill-through pages
-- Dynamic KPI tooltips
+```text
+Sales-Performance-Dashboard
+│
+├── README.md
+├── dashboard
+│   └── sales_performance_dashboard.html
+│
+├── data
+│   └── sales_data.csv
+│
+├── images
+│   ├── dashboard-overview.png
+│   ├── executive-overview.png
+│   ├── product-analysis.png
+│   ├── sales-performance.png
+│   ├── customer-analysis.png
+│   └── forecast-dashboard.png
+```
 
 ---
 
-# Author
+# How to Run
+
+Clone the repository.
+
+```bash
+git clone https://github.com/RobHab1/Sales-Performance-Dashboard.git
+```
+
+Open the dashboard.
+
+```text
+dashboard/sales_performance_dashboard.html
+```
+
+No installation or additional software is required.
+
+---
+
+# About This Project
+
+This dashboard was developed as part of my Business Intelligence portfolio to demonstrate practical experience in:
+
+- Business Intelligence
+- Sales Analytics
+- Dashboard Development
+- KPI Design
+- Data Visualization
+- Executive Reporting
+- Interactive Analytics
+
+The project focuses on transforming raw sales data into meaningful business insights through an intuitive and interactive dashboard.
+
+---
+
+# Contact
 
 Roben Habtemicael
 
@@ -304,8 +295,4 @@ https://github.com/RobHab1
 
 LinkedIn
 
-[https://www.linkedin.com/in/](https://www.linkedin.com/in/robel-habtemicael-703532319/)
-
----
-
-If you found this project interesting, feel free to connect or reach out.
+(https://www.linkedin.com/in/robel-habtemicael-703532319/)
