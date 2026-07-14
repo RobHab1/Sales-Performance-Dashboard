@@ -67,7 +67,7 @@ Analyze product and category performance.
 
 Monitor sales representative performance.
 
-![Sales Team](images/ sales-team.png)
+![Sales Team](images/sales-team.png)
 
 **Features**
 
