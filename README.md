@@ -1,7 +1,8 @@
 # Sales Performance Dashboard
 
-An interactive Business Intelligence dashboard designed to analyze sales performance, profitability and business trends through executive-level reporting.
+An interactive Business Intelligence dashboard built to analyze sales performance, profitability and business trends through executive reporting.
 
+![Dashboard Overview](images/dashboard-overview.png)
 
 ---
 
@@ -11,21 +12,21 @@ This project demonstrates how Business Intelligence transforms transactional sal
 
 The dashboard enables decision-makers to monitor sales performance, profitability, customer behavior and regional trends through interactive visualizations and KPI-driven reporting.
 
-The solution follows common Business Intelligence principles with a strong focus on usability, executive reporting and interactive analytics.
+The solution follows modern Business Intelligence design principles with a strong focus on usability, executive reporting and interactive analytics.
 
 ---
 
 # Business Objectives
 
-The dashboard helps answer key business questions including:
+This dashboard helps answer key business questions such as:
 
 - How is revenue changing over time?
 - Which product categories generate the highest revenue?
 - Which regions perform best?
-- Which sales representatives contribute the most revenue?
-- Which customer segments are most valuable?
+- Which sales representatives generate the strongest results?
+- Which customer segments are the most valuable?
 - How do discounts impact profitability?
-- What sales trends can be expected in the coming months?
+- What sales trends can be expected?
 
 ---
 
@@ -33,20 +34,17 @@ The dashboard helps answer key business questions including:
 
 ## Executive Overview
 
-High-level summary of business performance.
+Provides an executive summary of overall business performance.
 
-### KPIs
+Features
 
 - Revenue
 - Gross Profit
 - Gross Margin
 - Units Sold
 - Transactions
-
-### Visualizations
-
 - Monthly Revenue Trend
-- Revenue by Product Category
+- Revenue by Category
 - Revenue by Region
 - Top Sales Representatives
 
@@ -54,27 +52,23 @@ High-level summary of business performance.
 
 ## Product Analysis
 
-![Product Analysis](images/product-analysis.png)
+Analyze sales performance across product categories.
 
-Analyze product performance across categories.
-
-### Features
+Features
 
 - Revenue by Category
 - Gross Margin Analysis
-- Pareto Analysis
 - Product Ranking
-- Product Performance Table
+- Pareto Analysis
+- Product Performance
 
 ---
 
 ## Sales Team
 
-![Sales Team](images/sales-team.png)
+Monitor sales representative performance.
 
-Evaluate sales representative performance.
-
-### Features
+Features
 
 - Revenue by Sales Representative
 - Gross Profit Analysis
@@ -85,11 +79,9 @@ Evaluate sales representative performance.
 
 ## Regional Analysis
 
-![Regional Analysis](images/regional-analysis.png)
+Evaluate sales performance across geographical regions.
 
-Analyze business performance across geographical regions and sales channels.
-
-### Features
+Features
 
 - Regional Revenue
 - Sales Channel Performance
@@ -100,11 +92,9 @@ Analyze business performance across geographical regions and sales channels.
 
 ## Customer Analysis
 
-![Customer Analysis](images/customer-analysis.png)
+Understand customer purchasing behaviour.
 
-Understand customer purchasing behavior.
-
-### Features
+Features
 
 - Customer Segmentation
 - Customer Type Analysis
@@ -115,35 +105,59 @@ Understand customer purchasing behavior.
 
 ## Forecast & Variance
 
-![Forecast & Variance](images/forecast-variance.png)
+Support business planning through forecasting and variance analysis.
 
-Support future business planning through trend analysis.
-
-### Features
+Features
 
 - Revenue Forecast
 - Monthly Trend Analysis
 - Variance Analysis
-- Executive Business Insights
+- Executive Insights
+
+---
+
+# Dashboard Screenshots
+
+## Executive Overview
+
+![Dashboard Overview](images/dashboard-overview.png)
+
+## Product Analysis
+
+![Product Analysis](images/product-analysis.png)
+
+## Sales Team
+
+![Sales Team](images/sales-team.png)
+
+## Regional Analysis
+
+![Regional Analysis](images/regional-analysis.png)
+
+## Customer Analysis
+
+![Customer Analysis](images/customer-analysis.png)
+
+## Forecast & Variance
+
+![Forecast & Variance](images/forecast-variance.png)
 
 ---
 
 # Key Performance Indicators
 
-| KPI          | Description                     |
-| ------------ | ------------------------------- |
-| Revenue      | Total sales revenue             |
-| Gross Profit | Revenue minus product cost      |
+| KPI | Description |
+|------|-------------|
+| Revenue | Total sales revenue |
+| Gross Profit | Revenue minus cost |
 | Gross Margin | Gross Profit divided by Revenue |
-| Units Sold   | Total quantity sold             |
-| Transactions | Number of completed sales       |
-| Forecast     | Projected sales trend           |
+| Units Sold | Total quantity sold |
+| Transactions | Number of completed sales |
+| Forecast | Projected revenue trend |
 
 ---
 
 # Business Intelligence Skills Demonstrated
-
-This project demonstrates practical Business Intelligence capabilities including:
 
 - Business Intelligence Reporting
 - Executive Dashboard Design
@@ -151,11 +165,10 @@ This project demonstrates practical Business Intelligence capabilities including
 - Sales Analytics
 - Customer Analytics
 - Product Performance Analysis
-- Regional Analysis
+- Regional Analytics
 - Forecasting
-- Trend Analysis
 - Variance Analysis
-- Interactive Dashboard Design
+- Interactive Dashboards
 - Data Visualization
 - Business Storytelling
 
@@ -169,65 +182,6 @@ This project demonstrates practical Business Intelligence capabilities including
 - HTML5
 - CSS3
 - JavaScript
-- Data Analysis
-- Interactive Reporting
-
----
-
-# Data Structure
-
-The dashboard follows a dimensional Business Intelligence approach.
-
-```text
-FactSales
-│
-├── Product Category
-├── Product
-├── Region
-├── Sales Representative
-├── Customer Type
-├── Sales Channel
-├── Payment Method
-└── Date
-```
-
----
-
-# Screenshots
-
-## Dashboard Overview
-
-![Dashboard Overview](images/dashboard-overview.png)
-
----
-
-## Product Analysis
-
-![Product Analysis](images/product-analysis.png)
-
----
-
-## Sales Team
-
-![Sales Team](images/sales-team.png)
-
----
-
-## Regional Analysis
-
-![Regional Analysis](images/regional-analysis.png)
-
----
-
-## Customer Analysis
-
-![Customer Analysis](images/customer-analysis.png)
-
----
-
-## Forecast & Variance
-
-![Forecast & Variance](images/forecast-variance.png)
 
 ---
 
@@ -237,14 +191,13 @@ The project uses a transactional sales dataset containing:
 
 - Sales Transactions
 - Product Categories
-- Product IDs
 - Sales Representatives
 - Customer Types
+- Regions
 - Sales Channels
 - Payment Methods
-- Regional Information
 - Revenue
-- Unit Cost
+- Cost
 - Quantity Sold
 - Discounts
 
@@ -273,7 +226,7 @@ Sales-Performance-Dashboard
 
 ---
 
-# How to Run
+# Getting Started
 
 Clone the repository.
 
@@ -281,35 +234,33 @@ Clone the repository.
 git clone https://github.com/RobHab1/Sales-Performance-Dashboard.git
 ```
 
-Open the dashboard in your browser.
+Open the dashboard.
 
 ```text
 dashboard/sales_performance_dashboard.html
 ```
 
-No installation or additional software is required.
-
 ---
 
-# About This Project
+# About
 
-This project was developed as part of my Business Intelligence portfolio to demonstrate practical experience in:
+This project was created as part of my Business Intelligence portfolio to demonstrate practical skills in:
 
-- Business Intelligence
-- Sales Analytics
 - Dashboard Development
+- Sales Analytics
 - KPI Design
+- Business Intelligence
 - Executive Reporting
-- Interactive Analytics
 - Data Visualization
+- Interactive Analytics
 
-The goal was to transform raw sales data into meaningful business insights through a modern and interactive dashboard experience.
+The objective was to transform raw sales data into a modern, interactive dashboard that supports business decision-making.
 
 ---
 
 # Author
 
-## Robel Habtemicael
+**Robel Habtemicael**
 
 GitHub
 
