@@ -2,7 +2,6 @@
 
 An interactive Business Intelligence dashboard designed to analyze sales performance, profitability and business trends through executive-level reporting.
 
-![Dashboard Overview](images/dashboard-overview.png)
 
 ---
 
