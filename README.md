@@ -6,37 +6,35 @@ An interactive Business Intelligence dashboard built to analyze sales performanc
 
 ---
 
-# Overview
+## Overview
 
-This project demonstrates how Business Intelligence transforms transactional sales data into actionable business insights.
+This project demonstrates how Business Intelligence transforms transactional sales data into meaningful business insights.
 
-The dashboard enables decision-makers to monitor sales performance, profitability, customer behavior and regional trends through interactive visualizations and KPI-driven reporting.
-
-The solution follows modern Business Intelligence design principles with a strong focus on usability, executive reporting and interactive analytics.
+The dashboard provides decision-makers with an interactive view of sales performance, profitability, customer behavior and regional trends through KPI-driven reporting and visual analytics.
 
 ---
 
-# Business Objectives
+## Business Objectives
 
-This dashboard helps answer key business questions such as:
+The dashboard answers key business questions such as:
 
 - How is revenue changing over time?
 - Which product categories generate the highest revenue?
 - Which regions perform best?
-- Which sales representatives generate the strongest results?
+- Which sales representatives achieve the best results?
 - Which customer segments are the most valuable?
 - How do discounts impact profitability?
-- What sales trends can be expected?
+- What sales trend can be expected in the coming months?
 
 ---
 
-# Dashboard Pages
+## Dashboard Pages
 
-## Executive Overview
+### Executive Overview
 
-Provides an executive summary of overall business performance.
+A high-level overview of business performance.
 
-Features
+**Features**
 
 - Revenue
 - Gross Profit
@@ -50,51 +48,57 @@ Features
 
 ---
 
-## Product Analysis
+### Product Analysis
 
-Analyze sales performance across product categories.
+Analyze product and category performance.
 
-Features
+![Product Analysis](images/product-analysis.png)
+
+**Features**
 
 - Revenue by Category
 - Gross Margin Analysis
 - Product Ranking
 - Pareto Analysis
-- Product Performance
 
 ---
 
-## Sales Team
+### Sales Team
 
 Monitor sales representative performance.
 
-Features
+![Sales Team](images/sales-team.png)
+
+**Features**
 
 - Revenue by Sales Representative
 - Gross Profit Analysis
-- Payment Method Distribution
 - Sales Leaderboard
+- Payment Method Distribution
 
 ---
 
-## Regional Analysis
+### Regional Analysis
 
-Evaluate sales performance across geographical regions.
+Analyze regional sales performance.
 
-Features
+![Regional Analysis](images/regional-analysis.png)
+
+**Features**
 
 - Regional Revenue
 - Sales Channel Performance
-- Revenue Distribution
 - Regional Ranking
 
 ---
 
-## Customer Analysis
+### Customer Analysis
 
-Understand customer purchasing behaviour.
+Analyze customer purchasing behaviour.
 
-Features
+![Customer Analysis](images/customer-analysis.png)
+
+**Features**
 
 - Customer Segmentation
 - Customer Type Analysis
@@ -103,48 +107,22 @@ Features
 
 ---
 
-## Forecast & Variance
+### Forecast & Variance
 
-Support business planning through forecasting and variance analysis.
+Monitor future sales performance.
 
-Features
+![Forecast & Variance](images/forecast-variance.png)
+
+**Features**
 
 - Revenue Forecast
-- Monthly Trend Analysis
+- Trend Analysis
 - Variance Analysis
 - Executive Insights
 
 ---
 
-# Dashboard Screenshots
-
-## Executive Overview
-
-![Dashboard Overview](images/dashboard-overview.png)
-
-## Product Analysis
-
-![Product Analysis](images/product-analysis.png)
-
-## Sales Team
-
-![Sales Team](images/sales-team.png)
-
-## Regional Analysis
-
-![Regional Analysis](images/regional-analysis.png)
-
-## Customer Analysis
-
-![Customer Analysis](images/customer-analysis.png)
-
-## Forecast & Variance
-
-![Forecast & Variance](images/forecast-variance.png)
-
----
-
-# Key Performance Indicators
+## Key Performance Indicators
 
 | KPI | Description |
 |------|-------------|
@@ -157,24 +135,26 @@ Features
 
 ---
 
-# Business Intelligence Skills Demonstrated
+## Business Intelligence Skills
 
-- Business Intelligence Reporting
-- Executive Dashboard Design
-- KPI Development
+This project demonstrates experience with:
+
+- Business Intelligence
+- Executive Reporting
+- Dashboard Development
+- KPI Design
 - Sales Analytics
 - Customer Analytics
-- Product Performance Analysis
+- Product Analytics
 - Regional Analytics
 - Forecasting
 - Variance Analysis
 - Interactive Dashboards
 - Data Visualization
-- Business Storytelling
 
 ---
 
-# Technical Skills
+## Technologies
 
 - Python
 - Pandas
@@ -185,15 +165,15 @@ Features
 
 ---
 
-# Dataset
+## Dataset
 
-The project uses a transactional sales dataset containing:
+The dashboard is built from a transactional sales dataset including:
 
 - Sales Transactions
 - Product Categories
+- Regions
 - Sales Representatives
 - Customer Types
-- Regions
 - Sales Channels
 - Payment Methods
 - Revenue
@@ -203,7 +183,7 @@ The project uses a transactional sales dataset containing:
 
 ---
 
-# Repository Structure
+## Project Structure
 
 ```text
 Sales-Performance-Dashboard
@@ -212,7 +192,7 @@ Sales-Performance-Dashboard
 ├── dashboard
 │   └── sales_performance_dashboard.html
 │
-├── data
+├── Data
 │   └── sales_data.csv
 │
 ├── images
@@ -226,7 +206,7 @@ Sales-Performance-Dashboard
 
 ---
 
-# Getting Started
+## Getting Started
 
 Clone the repository.
 
@@ -240,25 +220,27 @@ Open the dashboard.
 dashboard/sales_performance_dashboard.html
 ```
 
+No installation is required.
+
 ---
 
-# About
+## About
 
 This project was created as part of my Business Intelligence portfolio to demonstrate practical skills in:
 
 - Dashboard Development
+- Business Intelligence
 - Sales Analytics
 - KPI Design
-- Business Intelligence
-- Executive Reporting
 - Data Visualization
+- Executive Reporting
 - Interactive Analytics
 
-The objective was to transform raw sales data into a modern, interactive dashboard that supports business decision-making.
+The objective was to transform raw sales data into a modern and interactive dashboard that supports business decision-making.
 
 ---
 
-# Author
+## Author
 
 **Robel Habtemicael**
 
